@@ -18,7 +18,7 @@ public class RounterController {
         return "index";
     }
 
-    @RequestMapping("/toLogin")
+    @RequestMapping("/login")
     public String toLogin() {
         return "views/login";
     }

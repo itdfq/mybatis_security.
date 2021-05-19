@@ -22,7 +22,7 @@
             <div class="right menu">
                 <!--如果没有登录-->
                 <div sec:authorize="!isAuthenticated()">
-                    <a class="item" th:href="@{/toLogin}">
+                    <a class="item" th:href="@{/login}">
                         <i class="address card icon"></i> 登录
                     </a>
                 </div>
@@ -31,6 +31,7 @@
                     <!--注销-->
                     <a class="item">
                         用户名：<span sec:authentication="name"></span>
+                 &nbsp;
                         角色：<span sec:authentication="authorities"></span>
                     </a>
                 </div>

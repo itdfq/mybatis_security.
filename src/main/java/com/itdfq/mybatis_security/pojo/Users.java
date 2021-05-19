@@ -11,8 +11,8 @@ import java.io.Serializable;
  * @since 2021-05-19 14:12:46
  */
 @Data
-public class Users implements Serializable {
-    private static final long serialVersionUID = -72355477030949808L;
+public class Users{
+
     
     private Integer id;
     
